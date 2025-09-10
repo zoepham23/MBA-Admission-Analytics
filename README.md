@@ -47,9 +47,17 @@ The bar chart below shows how industry background influences admission outcomes.
 
 ![Admission by Industry](plots/industry.png)  
 
----
+**4. Undergraduate Majors**  
+Admission rates across undergraduate majors (Business, STEM, Humanities) were broadly similar, averaging around 14%.  
 
-**4. Demographic Patterns**  
+A one-way ANOVA test confirmed there were **no statistically significant differences** between the groups (F = 0.28, p = 0.76). This suggests that, in this dataset, an applicant’s field of undergraduate study was **not a determining factor** in admissions decisions.  
+
+The chart below illustrates the nearly identical admission rates across majors.  
+
+![Admission by Major](plots/majors.png)
+
+
+**5. Demographic Patterns**  
 Logistic regression revealed demographic associations with admission outcomes. Female applicants were admitted at higher rates than males across most groups. Race effects also emerged: coefficients were positive for White and Other categories, and negative for Black and Hispanic categories.  
 
 The model achieved 66% accuracy, but predictive power was limited due to class imbalance and unobserved factors (essays, recommendations, etc.). This means the results should be interpreted as patterns in the dataset, not definitive drivers of admissions.  
