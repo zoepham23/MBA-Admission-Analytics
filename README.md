@@ -58,15 +58,18 @@ The chart below illustrates the nearly identical admission rates across majors.
 
 
 **5. Demographic Patterns**  
-Logistic regression revealed demographic associations with admission outcomes. Female applicants were admitted at higher rates than males across most groups. Race effects also emerged: coefficients were positive for White and Other categories, and negative for Black and Hispanic categories.  
+Admission outcomes differed across demographic groups. The stacked bar chart shows that female applicants were admitted at higher rates than male applicants across most racial categories, while Black and Hispanic applicants had noticeably lower admit proportions compared to White and Other groups.  
 
-The model achieved 66% accuracy, but predictive power was limited due to class imbalance and unobserved factors (essays, recommendations, etc.). This means the results should be interpreted as patterns in the dataset, not definitive drivers of admissions.  
+To test these patterns formally, I ran a logistic regression model using gender and race as predictors. The model assigned positive coefficients to female and White/Other applicants, and negative coefficients to Black and Hispanic applicants. However, the overall predictive power was limited (66% accuracy), reflecting both **class imbalance** in the dataset and the absence of other admissions factors (e.g., essays, recommendations, interviews).  
 
-The chart below illustrates the logistic regression coefficients for demographic variables.  
+This analysis should therefore be read as a reflection of dataset imbalances and representation differences, rather than evidence of bias or causation.  
 
-![Logistic Regression Coefficients](plots/log_reg_coeffs.png)  
+![Demographics Chart](plots/demo.png)
 
-## Limitation Acknowledgement
 
-## Next Steps
+## Limitations Acknowledgement
+- The dataset is synthetic, which limits generalizability.  
+- Admissions decisions depend on unobserved factors such as essays, recommendations, and interviews.  
+- Logistic regression performance was constrained by class imbalance, making predictions less reliable.  
+
 
