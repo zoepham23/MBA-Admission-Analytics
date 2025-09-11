@@ -3,12 +3,10 @@
 
 As someone interested in the decision-making behind competitive graduate programs, I was curious to explore what factors might influence admission into the Wharton School of Business—one of the top MBA programs in the U.S. Through this project, I aim to uncover data-driven insights on how elements like GPA, GMAT scores, work experience, and demographics relate to admission outcomes. My goal is to better understand the admissions landscape and share findings that may be helpful for prospective applicants.
 
-## Dataset Overview
-
-The dataset used in this project is included in this repository as [`MBA.csv`](MBA.csv).  
-
-- **Source:** [Kaggle – MBA Admission Dataset](https://www.kaggle.com/datasets/taweilo/mba-admission-dataset)  
-- **Note:** The dataset is synthetic, generated from Wharton Class of 2025 statistics
+## Dataset & Project Files
+- Raw dataset: [`data/raw_data.csv`](raw_data.csv) (6,194 applications, synthetic from Wharton Class of 2025)  
+- Full analysis notebook: [`notebooks/MBA_Admission_Analysis.ipynb`](MBA_Admission_Analysis.ipynb)  
+- Exported visuals: see [`plots/`](plots) folder  
 
 ## Research Questions
 Some research questions I use to guide the exploratory stage are:
