@@ -58,7 +58,7 @@ Some research questions I use to guide the exploratory stage are:
 ## Application Recommendation
 - Applicants may benefit from strengthening academic metrics (GPA, GMAT).  
 - Gaining at least 2 years of work experience is beneficial before applying to MBA programs.  
-- Industry background may shape perceived fit
+- Industry background may shape perceived fit.
   
 ## Limitations Acknowledgement
 - The dataset is synthetic, which limits generalizability.  
